@@ -1,6 +1,6 @@
 # HireFlow Backend — Spring Boot REST API
 
-Full backend for the HireFlow job portal with JWT security, MySQL/H2 database, and role-based access control.
+Full backend for the HireFlow job portal with JWT security, MySQL database, and role-based access control.
 
 ---
 
