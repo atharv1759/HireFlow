@@ -25,6 +25,9 @@ public class Application extends BaseEntity {
     private String coverLetter;
 
     private String phone;
+    @Column(length = 500)
+    private String resumeUrl;
+
 
     @Column(name = "portfolio_url")
     private String portfolioUrl;
@@ -39,4 +42,6 @@ public class Application extends BaseEntity {
     public enum ApplicationStatus {
         PENDING, REVIEWED, SHORTLISTED, ACCEPTED, REJECTED
     }
+    public String getResumeUrl() { return resumeUrl; }
+    public void setResumeUrl(String resumeUrl) { this.resumeUrl = resumeUrl; }
 }

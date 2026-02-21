@@ -44,6 +44,7 @@ public class ApplicationService {
                 .coverLetter(request.getCoverLetter())
                 .phone(request.getPhone())
                 .portfolioUrl(request.getPortfolioUrl())
+                .resumeUrl(request.getResumeUrl())
                 .status(Application.ApplicationStatus.PENDING)
                 .build();
 

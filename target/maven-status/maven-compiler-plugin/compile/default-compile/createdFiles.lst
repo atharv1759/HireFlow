@@ -33,6 +33,7 @@ com\hireflow\JobPortalApplication.class
 com\hireflow\dto\response\ApiResponse$AuthResponse$AuthResponseBuilder.class
 com\hireflow\exception\GlobalExceptionHandler.class
 com\hireflow\service\impl\UserService.class
+com\hireflow\config\WebConfig.class
 com\hireflow\dto\request\AuthRequest.class
 com\hireflow\exception\AccessDeniedException.class
 com\hireflow\entity\User$Role.class
@@ -44,6 +45,7 @@ com\hireflow\exception\ResourceNotFoundException.class
 com\hireflow\dto\response\ApiResponse$DashboardStats$DashboardStatsBuilder.class
 com\hireflow\repository\UserRepository.class
 com\hireflow\entity\Job$JobStatus.class
+com\hireflow\controller\FileController.class
 com\hireflow\dto\response\ApiResponse$AuthResponse.class
 com\hireflow\dto\request\AuthRequest$LoginRequest.class
 com\hireflow\security\JwtAuthEntryPoint.class
